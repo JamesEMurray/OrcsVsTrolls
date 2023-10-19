@@ -1,0 +1,15 @@
+Troll & Orc are the highest level classes
+They Pass their variables through to either Player or Enemy class (Player chooses which they play as, Enemy plays as the other ie. If Player selected Orc, then Enemy would play as Troll)
+The Game functions such as setup(), run() and update() are handled in main.cpp
+
+Troll:
+	->Enemy
+		->main.cpp
+	->Player
+		->main.cpp
+
+Orc:
+	->Enemy
+		->main.cpp
+	->Player
+		->main.cpp
